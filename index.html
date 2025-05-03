@@ -1,11 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+
+.item-lista{
+    display: flex;
+    flex-direction: column;
+}
+ul{
+display: flex;
+gap: 50px;
+flex-wrap: wrap;
+/* margin: auto;
+width: fit-content; */
+}
+section{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    flex-direction: column;
+    margin: auto;
+}
+h1, h2, h4{
+    display: inline;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+    </style>
 </head>
+
 <body>
-    
+
+    <section>
+        <div class="header">
+            <h1>
+                TOP 5 do pagode
+            </h1>
+
+            <h2>
+                As músicas mais tocadas
+            </h2>
+            <h4>
+                Pagode Brasil
+            </h4>
+        </div>
+        <ul>
+            <li class="item-lista">
+                <img src="image1.png" alt="imagem artista número 1 pagode">
+                <span>Playlist 1</span>
+                <span>Descrição</span>
+            </li>
+            <li class="item-lista">
+                <img src="image2.png" alt="imagem artista número 2 pagode">
+                <span>Playlist 2</span>
+                <span>Descrição</span>
+            </li>
+            <li class="item-lista">
+                <img src="image3.png" alt="imagem artista número 3 pagode">
+                <span>Playlist 3</span>
+                <span>Descrição</span>
+            </li>
+            <li class="item-lista">
+                <img src="image4.png" alt="imagem artista número 4 pagode">
+                <span>Playlist 4</span>
+                <span>Descrição</span>
+            </li>
+        </ul>
+    </section>
+
 </body>
+
 </html>
